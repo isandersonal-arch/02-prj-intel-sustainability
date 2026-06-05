@@ -174,5 +174,16 @@ main {
   .timeline {
     margin-top: -1rem;
   }
+
+  .timeline-container {
+    flex-direction: column;
+    overflow-x: visible;
+    align-items: center;
+  }
+
+  .timeline-card {
+    width: min(100%, 520px);
+    max-width: 100%;
+  }
 }
 
